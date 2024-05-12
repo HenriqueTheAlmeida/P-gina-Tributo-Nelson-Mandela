@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#dfdfdf;
+    margin: 0px;
+}
+
+.container{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.text_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: 190px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.text_title .title_main{
+    font-size: 60px;
+}
+
+.text_title .title_second{
+    font-size: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0 ;
+    height: 600px;
+}
+
+.caixa_foto{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 700px;
+    width: 97%;
+    padding: 10px;
+}
+
+.foto{
+    display: flex;
+    flex:7;
+    justify-content: center;
+    height: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.descri_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex:1;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 10px 0 ;
+    height: 600px;
+}
+
+.timeline_box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100px;
+    width: 97%;
+    border-radius: 15px;
+}
+
+.titulo_timeline{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+
+}
+
+.timeline{
+    width: 40%;
+    display: flex;
+    flex: 10;
+}
+
+.timeline li{
+    padding: 5px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12px 0 10px 0 ;
+    height: 100px;
+   
+}
+
+.rodape_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100px;
+    width: 97%;
+    border-radius: 15px;
+}
+
+.container4 a{
+    text-decoration: none;
+    color: #00f;
+}
